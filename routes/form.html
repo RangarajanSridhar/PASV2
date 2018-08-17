@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head><title>APPLICATION FORM</title>
+<link rel="stylesheet" href="css2/style2.css">
+
+</head>
+<body bgcolor="white"> 
+    <h1 align="">APPLICATION FORM</h1> <br>  <hr> <br>
+    <form action="form" method="POST">
+        <div id="container" style="width:100%;"> 
+    <div align="left" style="float:left; width:50%;">  
+  
+        <span class="number">1</span>Service required<br>
+    &nbsp &nbsp &nbsp<span class="number"> 1.1</span>Applying for
+   
+  
+    &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp<input type="radio" id="freshpspt" name="Applyingfor" checked value="f"><label class="small" for="freshspt"> Fresh Passport</label>
+    &nbsp &nbsp &nbsp<input type="radio" id="renew" name="Applyingfor" value="r"><label class="small"  for="renew">Re-issue of Passport</label>
+
+  
+    <br>&nbsp &nbsp &nbsp<span class="number">1.2</span>Type of Application 
+   &nbsp &nbsp &nbsp<input type="radio" id="norm" name="TypeofApplication"  value="n" checked ><label class="small" for="norm"> Normal</label>
+   &nbsp &nbsp &nbsp<input type="radio" id="tadkal"name="TypeofApplication" value="t"><label class="small" for="tadkal">Tadkal</label>
+   
+  
+   <br>&nbsp &nbsp &nbsp<span class="number">1.3</span>Validity Required   
+   &nbsp &nbsp &nbsp &nbsp &nbsp<input type="radio" id="ten" name="ValidityRequired" value="ty"  checked ><label class="small" for="ten"> Ten Years</label>
+   &nbsp &nbsp &nbsp<input type="radio" id="u18"name="ValidityRequired" value="18"><label class="small" for="u18">Upto 18</label><br> <br>
+
+  
+  
+   <span class="number">2</span>Applicant Details<br>
+   &nbsp &nbsp &nbsp<span class="number">2.1</span>Applicant's Given Name&nbsp<font size=2px>(given name means First name followed by Middle name  "not initial")</font> <br>
+   &nbsp &nbsp &nbsp&nbsp <input type="text" style="width:500px;"name="name" id="" size="20"> <br>
+   &nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbspSurname <br>
+   &nbsp &nbsp &nbsp&nbsp<input type="text" name="surname" id="">
+   <br>
+
+  
+   &nbsp &nbsp &nbsp<span class="number">2.2</span> Date Of Birth (DD-MM-YYYY)&nbsp <input type="date" name="dob" id=""> <br>
+   
+  
+  
+   &nbsp &nbsp &nbsp<span class="number">2.3</span>Place Of Birth <br>  
+   &nbsp &nbsp &nbsp&nbsp Village/Town/City <br>&nbsp &nbsp &nbsp&nbsp <input type="text" style="width:400px;" name="pob_village"><br> 
+   &nbsp &nbsp &nbsp&nbspDistrict <br>&nbsp &nbsp &nbsp&nbsp <input type="text" style="width:400px;" name="pob_district"> <br> 
+   &nbsp &nbsp &nbsp&nbspState/UT <br>&nbsp &nbsp &nbsp&nbsp <input type="text" style="width:400px;"name="pob_state"> 
+
+  
+  
+   <br>&nbsp &nbsp &nbsp<span class="number">2.4</span>Gender 
+   &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp&nbsp &nbsp &nbsp&nbsp &nbsp &nbsp&nbsp <input type="radio" id="m" name="Gender" value="m"  ><label class="small" for="f">Male</label>
+   &nbsp &nbsp &nbsp<input type="radio" id="f"name="Gender" value="f"><label class="small" for="f">Female</label>
+   &nbsp &nbsp &nbsp<input type="radio" id="t"name="Gender"><label class="small" for="t" value="t">Transgender</label><br>
+
+
+   &nbsp &nbsp &nbsp<span class="number">2.5</span>Citizen of India by 
+   &nbsp &nbsp &nbsp &nbsp &nbsp<input type="radio" id="bi" name="CitizenofIndiaby" value="b" ><label class="small" for="bi">Birth</label>
+   &nbsp &nbsp &nbsp<input type="radio" id="de"name="CitizenofIndiaby "><label class="small" value="de" for="de">Descent</label>
+   &nbsp &nbsp &nbsp<input type="radio" id="re"name="CitizenofIndiaby "><label class="small" value="re" for="re">Registration/Naturalization</label><br> 
+
+   &nbsp &nbsp &nbsp<span class="number">2.6</span>Birth Certificate No&nbsp<font size=2px>(if available)</font> <br>  
+   &nbsp &nbsp &nbsp&nbsp <input type="text" style="width:300px;" name="bCert"><br> 
+
+   &nbsp&nbsp &nbsp<span class="number">2.7</span>RationId ID&nbsp<font size=2px>(if available)</font> <br>  
+   &nbsp &nbsp &nbsp&nbsp <input type="text" style="width:300px;" name="VoterID"><br> 
+  
+
+   &nbsp&nbsp &nbsp<span class="number">2.8</span>Aadhaar Number <br>  
+   &nbsp &nbsp &nbsp&nbsp <input type="text" style="width:300px;" name="adNo"><br> 
+
+
+   &nbsp&nbsp &nbsp<span class="number">2.9</span>Visible Distinguishing Mark <br>  
+   &nbsp &nbsp &nbsp&nbsp <input type="text" style="width:600px;" name="vDistinguishingMark"><br> <br><br>
+
+
+   <span class="number">3</span>Family Details<br>
+   &nbsp &nbsp &nbsp<span class="number">3.1</span>Father/Guardian's Given Name&nbsp<font size=2px>(if available)</font> <br>  
+   &nbsp &nbsp &nbsp&nbsp <input type="text" style="width:300px;" name="fatherName"><br> 
+
+   &nbsp&nbsp &nbsp<span class="number">3.2</span>Mother's Given Name&nbsp<font size=2px>(if available)</font> <br>  
+   &nbsp &nbsp &nbsp&nbsp  <input type="text" style="width:300px;"name="motherName"><br> 
+  
+
+   &nbsp&nbsp &nbsp<span class="number">3.3</span>Spouse Given Name &nbsp <br>  
+   &nbsp &nbsp &nbsp&nbsp <input type="text" style="width:300px;" name="spouseName"><br> <br><br>
+ 
+   
+  
+ 
+  
+</div>  
+<div style="float:right; width:50%;">
+<span class="number">4</span>Present Residential Address Details<font size=2px>(Skip if you reside in Permanent Address)</font> <br>
+&nbsp &nbsp &nbsp<span class="number">4.1</span>House No.and Street Name <br>  
+&nbsp &nbsp &nbsp&nbsp <input type="text" style="width:600px;" name="prRes_dNo"><br> 
+
+&nbsp&nbsp &nbsp<span class="number">4.2</span>Village/Town/City <br>  
+&nbsp &nbsp &nbsp&nbsp <input type="text" style="width:300px;" name="prRes_Village"><br> 
+
+
+&nbsp&nbsp &nbsp<span class="number">4.3</span>District<br>  
+&nbsp &nbsp &nbsp&nbsp <input type="text" style="width:300px;" name="prRes_District"><br> 
+
+
+&nbsp&nbsp &nbsp<span class="number">4.4</span>State/UT <br>  
+&nbsp &nbsp &nbsp&nbsp <input type="text" style="width:300px;" name="prRes_State"><br> 
+
+
+&nbsp &nbsp &nbsp<span class="number">4.5</span>PIN <br>  
+&nbsp &nbsp &nbsp&nbsp <input type="number" style="width:300px;"name="prRes_PIN"><br>  <br><br>
+
+<span class="number">5</span>Contact Information <br>
+&nbsp&nbsp &nbsp<span class="number">5.1</span>Telephone Number&nbsp<font size=2px>(if available)</font> <br>  
+&nbsp &nbsp &nbsp&nbsp <input type="number" style="width:300px;" name="telNo"><br> 
+
+
+&nbsp&nbsp &nbsp<span class="number">5.2</span>Mobile Number&nbsp <br>  
+&nbsp &nbsp &nbsp&nbsp <input type="number" style="width:300px;" name="mobNo"><br> 
+
+&nbsp&nbsp &nbsp<span class="number">5.3</span>E-Mail ID&nbsp<font size=2px>(if available)</font> <br>  
+&nbsp &nbsp &nbsp&nbsp <input type="text" style="width:600px;" name="email"><br><br> <br><br>
+
+
+<span class="number">6</span>Permanent Residential Address Details <br>
+&nbsp &nbsp &nbsp<span class="number">6.1</span>House No.and Street Name <br>  
+&nbsp &nbsp &nbsp&nbsp <input type="text" style="width:600px;" name="peRes_dNo"><br> 
+
+&nbsp&nbsp &nbsp<span class="number">6.2</span>Village/Town/City <br>  
+&nbsp &nbsp &nbsp&nbsp <input type="text" style="width:300px;" name="peRes_Village"><br> 
+
+
+&nbsp&nbsp &nbsp<span class="number">6.3</span>District<br>  
+&nbsp &nbsp &nbsp&nbsp <input type="text" style="width:300px;" name="peRes_District"><br> 
+
+
+&nbsp&nbsp &nbsp<span class="number">6.4</span>State/UT <br>  
+&nbsp &nbsp &nbsp&nbsp <input type="text" style="width:300px;" name="peRes_State"><br> 
+
+
+&nbsp &nbsp &nbsp<span class="number">6.5</span>PIN <br>  
+&nbsp &nbsp &nbsp&nbsp <input type="number" style="width:300px;" name="peRes_PIN"><br> <br><br>
+
+<span class="number" >7</span>Previous Passport/Application Details <font size="2px">(If Applicable)</font><br>
+
+&nbsp&nbsp &nbsp<span class="number">7.1</span>Details of latest held/existing/lost Passport  <br>
+&nbsp &nbsp&nbspPassport Number  
+<br>&nbsp &nbsp &nbsp&nbsp <input type="number" style="width:300px;" name="prPas_No"><br> 
+&nbsp&nbsp&nbspDate of Issue
+<br>&nbsp &nbsp &nbsp&nbsp<input type="date" name="prPas_DOI" id=""><br>
+&nbsp&nbsp&nbspDate of Expiry
+<br>&nbsp &nbsp &nbsp&nbsp<input type="date" name="prPas_DOE"><br>
+&nbsp&nbsp&nbspPlace of Issue
+<br>&nbsp &nbsp &nbsp&nbsp<input type="text" style="width:500px" name="prPas_POE" id="">   
+</div>
+
+<input type = "submit" value="submit" />  
+</div>
+</form>
+</div>
+</body>
+
+</html>

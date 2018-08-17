@@ -1,0 +1,101 @@
+
+
+ <mat-toolbar color="primary">Passport Seva</mat-toolbar>
+ <mat-tab-group>
+
+  <mat-tab label="Dashboard">
+    <mat-card><font size="50px"><p align="center" style="font-weight:lighter">Title comes here!</p></font><br><br></mat-card>
+  
+  
+  </mat-tab>
+  <mat-tab label="About">Content 2</mat-tab>
+  <mat-tab label="Passport Offices">
+<mat-card>
+    <div id="first-text"><h1 align="center" >LIST OF PASSPORT OFFICES</h1></div>
+    <!--div class="hd_blue">Know more about Passport Offices</div-->
+    <p align = "center">
+          <table align="center" id="applicationtable"  cellpadding="2" cellspacing="1">
+          <tbody><tr>
+            <td width="20%"><span title ="address ahm">Ahmedabad</span></td>
+            <td>Coimbatore</td>
+            <td>Kolkata</td>
+            <td>Ranchi</td>
+          </tr>
+          <tr>		
+            <td>Amritsar</td>
+            <td width="20%">Dehradun</td>
+            <td width="20%">Kozhikode</td>
+            <td width="20%">Shimla</td>
+    
+          </tr>
+          <tr>
+            <td>Andaman and Nicobar</td>
+            <td>Delhi</td>
+            <td>Lucknow</td>
+            <td>Srinagar</td>
+          </tr>
+          <tr>
+            <td>Bengaluru</td>
+            <td>Ghaziabad</td>
+            <td>Madurai</td>
+            <td>Surat</td>
+          </tr>
+          <tr>
+            <td>Bareilly</td>
+            <td>Goa</td>
+            <td>Malappuram</td>
+            <td>Thane</td>
+          </tr>
+          <tr>
+            <td>Bhopal</td>
+            <td>Guwahati</td>
+            <td>Mumbai</td>
+            <td>Tiruchirappalli</td>
+          </tr>
+          <tr>
+            <td>Bhubaneswar</td>
+            <td>Hyderabad</td>
+            <td>Nagpur</td>
+            <td>Trivandrum</td>
+          </tr>
+          <tr>
+            <td>Chandigarh</td>
+            <td>Jaipur</td>
+            <td>Patna</td>
+            <td>Visakhapatnam</td>
+          </tr>
+          <tr>
+            <td>Chennai</td>
+            <td>Jalandhar</td>
+            <td>Pune</td>
+            <td>Vijayawada</td>
+          </tr>
+          <tr>
+            <td>Cochin</td>
+            <td>Jammu</td>
+            <td>Raipur</td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr><td>&nbsp;</td></tr>
+            </tbody></table>
+           
+  
+      </mat-card>
+  </mat-tab>
+  <mat-tab label="Visa Services">
+      <mat-card>Simple card</mat-card>
+
+  </mat-tab>
+  <mat-tab label="Contact Us">
+
+    
+  </mat-tab>
+  
+</mat-tab-group>
+
+
+
+
+
+
+
